@@ -1,0 +1,34 @@
+/* Aplica a imagem de fundo ao corpo da página */
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRccX3ZUDEQQ3XQuYwJAYOra8Ke0ZwRzCdnh3rFgS7KCMDWe9pC"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Garante que o corpo ocupe ao menos a altura da tela */
+  text-align: center;
+}
+
+/* Estilo do contêiner da mensagem */
+.content {
+  background-color: rgba(0, 0, 0, 0.6); /* Fundo escuro com transparência */
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 20px;
+  max-height: 80vh; /* Limita a altura da mensagem */
+  overflow-y: auto; /* Permite o scroll vertical */
+}
+
+/* Estilo para a mensagem */
+#mensagem {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  white-space: pre-wrap;
+}
